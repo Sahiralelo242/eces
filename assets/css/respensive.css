@@ -1,0 +1,89 @@
+@media only screen and (max-width:400px){
+	
+}
+body{
+
+
+}
+
+.banner{
+	height: 70px ;
+	line-height: 20px ;
+}
+
+.banner ul{
+
+}
+
+
+.banner ul li{
+	margin-right: 2px ;
+}
+
+.banner ul li a{
+	border-radius: 10px ;
+	font-size: 0.6em ;
+	padding: 10px ;
+}
+
+.banner ul a:hover{
+	transition: all .8s ;
+	border-style: inset;
+}
+
+#container{
+	width: 15% ;
+	margin: 20vh auto ;
+	position: relative;
+	text-align: center;
+}
+
+/*** la photo **/
+
+.photo{
+	width: 30% ;
+
+
+}
+.photo img{
+	border-radius: 50% ;
+	width: 0%;
+}
+
+.contenue{
+	width: 1% ;
+}
+
+.contenue h3{
+	text-align: left;
+	margin-left: 10px ;
+	font-size: 0.6em ;
+}
+/*** page etudiant**/
+
+.link{
+	color: black ;
+	display: block;
+	text-decoration: none;
+}
+.link:hover{
+	color: blue ;
+}
+
+#etudiants{
+	border:2px solid black;
+}
+hr{
+	border:2px solid black;
+}
+p a:hover{
+	color: blue ;
+}
+p a{
+	color: black ;
+	display: block;
+	text-decoration: none;
+}
+b{
+	color: gray;
+}

@@ -1,0 +1,159 @@
+body{
+	margin: 0px ;
+	padding: 0px ;
+  background-color: white;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+
+}
+
+.banner{
+	background-color: black ;
+	border: 1px solid transparent;
+	display: block ;
+	height: 100px ;
+	line-height: 50px ;
+}
+
+.banner ul{
+	display: block ;
+	position: relative;
+	list-style: none;
+	text-align: center ;
+}
+
+
+.banner ul li{
+	position: relative ;
+	display: inline-block;
+	margin-right: 2px ;
+}
+
+.banner ul li a{
+	border-radius: 10px ;
+	color: lavender;
+	font-size: 1.2em ;
+	display: block;
+	width: inherit;
+	height: inherit;
+	text-decoration:none;
+	font-weight: bolder ;
+	padding: 10px ;
+	outline: none;
+}
+
+.banner ul a:hover{
+	background-color: #f8f8f8f8;
+	color :#333 ;
+	transition: all .8s ;
+	border-style: inset;
+}
+
+#container{
+	width: 80% ;
+	margin: 20vh auto ;
+	position: relative;
+	text-align: center;
+}
+
+/*** la photo **/
+
+.photo{
+	position: relative;
+	width: 30% ;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.photo img{
+	display: block;
+	border-radius: 50% ;
+}
+
+.contenue{
+	width: 58% ;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contenue h3{
+	text-align: left;
+	margin-left: 70px ;
+}
+/*** page etudiant**/
+
+.link{
+	color: #333 ;
+	display: block;
+	text-decoration: none;
+}
+.link:hover{
+	color: blue;
+}
+
+#etudiants{
+	border:2px solid #333;
+}
+hr{
+	border:2px solid #333;
+}
+p a:hover{
+	color: blue;
+}
+p a{
+	color: #333;
+	display: block;
+	text-decoration: none;
+}
+b{
+	color: #333;
+}
+
+/*footer*/
+footer {
+  padding: 50px 0 65px;
+}
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 990px){
+
+	.navbar-brand {
+	position: absolute;top:5;left: 10;
+	}
+}
+
+@media (max-width: 990px){
+
+	.nav-item{
+	text-align:center;
+	}
+}
+
+.nav-item :hover{
+
+	transition-duration: .5s;
+	border-radius: 10px ;
+}
+.nav-item {
+	border-radius: 10px ;
+	display: block;
+	width: inherit;
+	height: inherit;
+
+}
+
+.nav-item {
+	border: 1px solid transparent;
+	display: block ;
+	line-height: 50px ;
+}

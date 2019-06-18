@@ -1,0 +1,85 @@
+body{
+	margin: 0px ;
+	padding: 0px ;
+	font-family: verdana,sans-serif;
+
+
+
+}
+
+.banner{
+	background-color: black ;
+	border: 1px solid transparent;
+	display: block ;
+	height: 100px ;
+	line-height: 50px ;
+}
+
+.banner ul{
+	display: block ;
+	position: relative;
+	list-style: none;
+	text-align: center ;
+}
+
+
+.banner ul li{
+	position: relative ;
+	display: inline-block;
+	margin-right: 2px ;
+}
+
+.banner ul li a{
+	border-radius: 10px ;
+	color: white;
+	font-size: 1.2em ;
+	display: block;
+	width: inherit;
+	height: inherit;
+	text-decoration:none;
+	font-weight: bolder ;
+	padding: 10px ;
+	outline: none;
+
+}
+
+.banner ul li a:hover{
+	background-color: white;
+	color : black ;
+	transition: all .8s ;
+}
+
+#container{
+	width: 80% ;
+	margin: 20vh auto ;
+	position: relative;
+	text-align: center;
+}
+
+/*** la photo **/
+
+.photo{
+	position: relative;
+	width: 30% ;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.photo img{
+	display: block;
+	border-radius: 50% ;
+}
+
+.contenue{
+	width: 58% ;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contenue h2{
+	text-align: left;
+	margin-left: 70px ;
+}
+/*** page etudiant**/

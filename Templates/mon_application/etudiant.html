@@ -1,0 +1,25 @@
+{% extends 'mon_application/index.html' %}
+
+		{% block contenu %}
+
+	<div class=" col-md-6 text-center">
+		<img class="rounded-circle" width="300" height="300" src="{{student.photo.url}}" alt="{{student}}"  title="{{student}}">
+	</div>
+	
+
+		<div class="contenue photo col-md-6 mt-3">
+
+		
+		<h3>Matricule: <b>{{student.Matricule}}</b></h3>
+		<h3>Nom & Prenom: <b>{{student.nom}} - {{student.prenom}}</b></h3>
+		<h3>Date de naissance : <b>{{student.date_de_naissance}}</b></h3>
+		<h3>Sexe : <b>{{student.sexe}}</b></h3>
+		<h3>Option: <b>{{student.Option }}</b></h3>
+		<h3>Adresse: <b>{{student.adresse}}</b></h3>
+
+		</div>
+
+	
+	{% endblock contenu %}
+
+

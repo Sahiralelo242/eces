@@ -1,0 +1,46 @@
+{% extends 'mon_application/index.html' %}
+
+{% block contenu %}
+<div id="" class="col-md-12">
+	<h2>LISTES DES ETUDIANTS</h2>
+
+	<hr>
+	<h3>Nombre d'etudiant enregistré=({{etudiants|length}})</h3>
+	<p><a href="http://127.0.0.1:8000/admin">Ajouter ou Modifier des Etudiants</a></p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <!-- <th scope="col">#</th> -->
+      <th scope="col">Option</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">Plus</th>
+    </tr>
+  </thead>
+  <tbody>
+	{% for student in etudiants %}
+
+    <tr>
+      <!-- <th scope="row">{{student.id}}</th> -->
+      <th scope="row">{{student.Option}}</th>
+      <td>{{student.nom}}</td>
+      <td>{{student.prenom}}</td>
+      <td><a class="link text-primary text-uppercase" href="{% url 'etudiant' student.id %}"> voir </a></td>
+    </tr>
+
+	{% empty %}
+
+    <tr>
+      <td class="h2" colspan="5"> Désoler ! Nous avons aucun étudiant ici !</td>
+    </tr>
+
+	{% endfor %}
+
+  </tbody>
+</table>
+
+</div>
+
+{% endblock contenu %}
+
